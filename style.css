@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(99, 174, 235);
+}
+.light{
+width: 100px;
+  height: 500px;
+background-color: rgb(17, 17, 18);
+border: 2px solid ;
+padding: 50px;
+border-radius: 200px;
+margin-left: 50px;
+}
+.red-sig{
+ width: 100px;
+ height: 100px;
+ border-radius: 100px;
+ background-color: gray;
+ margin-top: 20px;
+}
+.yellow-sig{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: gray;
+  margin-top: 70px;
+}
+.green-sig{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: gray;
+  margin-top: 80px;
+}
+.red-sig:hover{
+  background-color: red;
+}
+.yellow-sig:hover{
+  background-color: yellow;
+}
+.green-sig:hover{
+  background-color: green;
+}
